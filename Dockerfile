@@ -18,7 +18,9 @@ RUN apt-get install -y --no-install-recommends \
         python3.5-dev \
         python3-pip \
         python3-setuptools \
-        sudo
+        sudo \
+        vim \
+        pkg-config
 
 # installing OpenVINO dependencies
 RUN cd /openvino/ && \
